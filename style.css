@@ -20,10 +20,38 @@ body {
     background-size: cover;
 }
 
+.poll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+    height: 70vh;
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 20px;
+}
+
+.titel h1 {
+    font-size: 48px;
+    color: #411b56;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.titel i {
+    font-size: 38px;
+}
+
 .container {
     position: relative;
     width: 4.5em;
     height: 4em;
+    margin: 20px 0;
     background-color: #644dff;
     overflow: hidden;
     border-radius: 100%;
