@@ -47,25 +47,43 @@ body {
     font-size: 38px;
 }
 
-.container {
+.meer {
     position: relative;
     width: 4.5em;
     height: 4em;
     margin: 20px 0;
-    background-color: #644dff;
+    background-color: #4dff62;
     overflow: hidden;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     scale: 2;
-    box-shadow: 0 .5em #4836bb;
+    box-shadow: 0 .5em #30a13d;
     transition: all .1s ease;
-    filter: drop-shadow(0 6px 2px #4836bb38);
-    border: 1px solid #4836bb;
+    filter: drop-shadow(0 6px 2px #30a13d38);
+    border: 1px solid #30a13d;
+}
+
+.minder {
+    position: relative;
+    width: 4.5em;
+    height: 4em;
+    margin: 20px 0;
+    background-color: #ff4d4d;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 2;
+    box-shadow: 0 .5em #832727;
+    transition: all .1s ease;
+    filter: drop-shadow(0 6px 2px #83272738);
+    border: 1px solid #832727;
 }
   
-.button {
+.meer .button {
     font-weight: 700;
     cursor: pointer;
     position: absolute;
@@ -73,13 +91,31 @@ body {
     letter-spacing: 1px;
     height: 110%;
     width: 110%;
-    background-color: #644dff;
+    background-color: #4dff6b;
+    color: white;
+}
+
+.minder .button {
+    font-weight: 700;
+    cursor: pointer;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 110%;
+    width: 110%;
+    background-color: #ff4d4d;
     color: white;
 }
   
-.container:has(.button:active) {
+.meer:has(.button:active) {
     box-shadow: none;
     margin-top: 2em;
-    filter: drop-shadow(0 3px 1px #4836bbbe);
+    filter: drop-shadow(0 3px 1px #1f652a);
+}
+
+.minder:has(.button:active) {
+    box-shadow: none;
+    margin-top: 2em;
+    filter: drop-shadow(0 3px 1px #6f2121);
 }
   
