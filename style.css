@@ -28,6 +28,7 @@ body {
     width: 60vw;
     height: 70vh;
     margin: 40px 0;
+    margin-top: 60px;
     padding: 20px;
     background: rgba(255,255,255,0.5);
     -webkit-backdrop-filter: blur(10px);
@@ -52,7 +53,7 @@ body {
     width: 4.5em;
     height: 4em;
     margin: 20px 0;
-    background-color: #4dff62;
+    background-color: #40d358;
     overflow: hidden;
     border-radius: 100%;
     display: flex;
@@ -91,7 +92,7 @@ body {
     letter-spacing: 1px;
     height: 110%;
     width: 110%;
-    background-color: #4dff6b;
+    background-color: #40d358;
     color: white;
 }
 
@@ -117,5 +118,15 @@ body {
     box-shadow: none;
     margin-top: 2em;
     filter: drop-shadow(0 3px 1px #6f2121);
+}
+
+.knoppen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+    margin-bottom: 40px;
 }
   
