@@ -87,7 +87,7 @@ body {
 .meer .button {
     font-weight: 700;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     text-transform: uppercase;
     letter-spacing: 1px;
     height: 110%;
@@ -99,7 +99,7 @@ body {
 .minder .button {
     font-weight: 700;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     text-transform: uppercase;
     letter-spacing: 1px;
     height: 110%;
@@ -127,6 +127,6 @@ body {
     justify-content: center;
     gap: 200px;
     padding: 20px;
-    margin-bottom: 40px;
+    margin: 40px;
 }
   
